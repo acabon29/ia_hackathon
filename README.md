@@ -31,9 +31,7 @@ Here’s how to connect the components:
 ![Schemat](assets/images/schema.png)
 
 📌 **Explanation:**  
-- The **HC-SR04 sensor** is connected to **Trig** and **Echo** pins  
-- The **motor** is connected to a **relay** on **pin D3**  
-- The **Arduino** communicates via **USB** with a PC  
+- Faites le putin de **schéma**
 
 ---
 

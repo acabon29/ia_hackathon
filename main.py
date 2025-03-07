@@ -131,7 +131,8 @@ def main():
     pygame.init()
     pygame.mixer.init()
     print("Connexion a la carte arduino...")
-    arduino = serial.Serial('COM4', 9600, timeout=1)
+    # Replace with the correct port where the arduino is installed. ex: COM4
+    arduino = serial.Serial('COM_OF_THE_ARDUINO', 9600, timeout=1)
     time.sleep(2)
     print("Connexion réalisé !")
     while True:

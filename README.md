@@ -28,7 +28,7 @@ This project was made as part of a collaboration between **42 school** and **Laz
 ## ⚙️ Wiring Diagram
 Here’s how to connect the components:  
 
-![Schemat](assets/images/schemat.png)
+![Schemat](assets/images/schema.png)
 
 📌 **Explanation:**  
 - The **HC-SR04 sensor** is connected to **Trig** and **Echo** pins  
@@ -42,14 +42,14 @@ Here’s how to connect the components:
 ```sh
 git clone https://github.com/user/my-arduino-project.git
 ```
-
-2 update motor.ino in arduino card and close the IDE Arduino (for resolve Serial problem)
-3 Install all lib :
+2 follow the diagram for the connections
+3 update motor.ino in arduino card and close the IDE Arduino (for resolve Serial problem)
+4 Install all lib :
 ```sh
 pip install requests openai-whisper sounddevice numpy soundfile pyttsx3 pygame pyserial
 ```
-4 Replace MY_API_KEY and COM_OF_THE_ARDUINO in main.py
-5 Run main.py
+5 Replace MY_API_KEY and COM_OF_THE_ARDUINO in main.py
+6 Run main.py
 ```sh
 python main.py
 ```

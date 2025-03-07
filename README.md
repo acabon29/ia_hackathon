@@ -8,10 +8,10 @@ This project was made as part of a collaboration between **42 school** and **Laz
 ![Photo](assets/images/project.jpg)
 
 ## 📌 Features  
-✅ Motor activation based on python request
-✅ Request to mistral API
-✅ Talk to text
-✅ Text to talk
+✅ Motor activation based on python request\n
+✅ Request to mistral API\n
+✅ Talk to text\n
+✅ Text to talk\n
 
 ---
 
@@ -28,7 +28,7 @@ This project was made as part of a collaboration between **42 school** and **Laz
 ## ⚙️ Wiring Diagram
 Here’s how to connect the components:  
 
-![Diagram](assets/images/project.jpg)
+![Schemat](assets/images/schemat.png)
 
 📌 **Explanation:**  
 - The **HC-SR04 sensor** is connected to **Trig** and **Echo** pins  
@@ -41,3 +41,17 @@ Here’s how to connect the components:
 1️⃣ Clone this repository:
 ```sh
 git clone https://github.com/user/my-arduino-project.git
+```
+
+2 update motor.ino in arduino card and close the IDE Arduino (for resolve Serial problem)
+3 Install all lib :
+```sh
+pip install requests openai-whisper sounddevice numpy soundfile pyttsx3 pygame pyserial
+```
+4 Replace MY_API_KEY and COM_OF_THE_ARDUINO in main.py
+5 Run main.py
+```sh
+python main.py
+```
+
+

@@ -31,7 +31,10 @@ Here’s how to connect the components:
 ![Schemat](assets/images/schema.png)
 
 📌 **Explanation:**  
-- Faites le putin de **schéma**
+1. Connect the GND and NO (Normally Open) pins of the relay to the GND pin of the Arduino board.
+2. Connect the CVV pin of the relay to the D2 pin of the Arduino.
+3. Connect the NC (Normally Closed) pin of the relay to the GND pin of the motor.
+4. Connect the 5V pin of the motor and the SING pin of the relay to the 5V power supply.
 
 ---
 

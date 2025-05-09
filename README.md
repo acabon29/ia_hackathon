@@ -30,7 +30,7 @@ This project was made as part of a collaboration between **42 school** and **Laz
 ## ⚙️ Wiring Diagram
 Here’s how to connect the components:  
 
-![Schemat](assets/images/schema.png)
+![Schemat](assets/images/schema-V2.png)
 
 📌 **Explanation:**  
 1. Connect the GND and NO (Normally Open) pins of the relay to the GND pin of the Arduino board.

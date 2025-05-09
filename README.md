@@ -20,7 +20,7 @@ This project was made as part of a collaboration between **42 school** and **Laz
 |-----------------|----------|
 | Arduino Uno     | 1        |
 | Motor           | 1        |
-| Relais          | 1        |
+| Relais Arduino  | 1        |
 | Wires           | Several  |
 
 ---
